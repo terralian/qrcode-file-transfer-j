@@ -1,9 +1,8 @@
 # qrcode-file-transfer-j
+
 A simple implementation of QRCode file transfer
 
 一种超简易基于二维码的无网络文件传输实现，灵感来源于文献。
-
-
 
 ## 场景
 
@@ -15,15 +14,13 @@ A simple implementation of QRCode file transfer
 
 再通过Decode代码还原回文件。
 
-
-
 ## 使用
 
 前提：
 
 - 远程桌面环境
 - 其内部有完整的maven私服仓库
-  - 所以可用范围仅限制在Java开发的客户
+    - 所以可用范围仅限制在Java开发的客户
 
 远程桌面环境：
 
@@ -40,7 +37,7 @@ A simple implementation of QRCode file transfer
 	- jar
 ```
 
-- 在目录A下使用java命令执行jar 
+- 在目录A下使用java命令执行jar
 - 在out目录下生成已分割好的二维码PNG集合
 
 本地环境：
@@ -53,15 +50,13 @@ A simple implementation of QRCode file transfer
 ```
 - 目录B
 	- source
-		- 方PNG图片
+		- 放二维码PNG图片
 	- out
 	- jar
 ```
 
-- 在目录B下使用java命令执行jar 
+- 在目录B下使用java命令执行jar
 - 还原回的内容会通过压缩包的形式放在out目录下
-
-
 
 其他：
 
@@ -69,10 +64,9 @@ A simple implementation of QRCode file transfer
 - 该实现非常简陋，可考虑写一个自动化Decode的项目（有时间和后面有需求的话）
 - 该项目的优点只有一个，就是内网的编码器相较于文献的十分容易手敲
 
-
-
 ## 文献
 
-[基于二维码的无网络文件传输，通过屏幕和摄像头传输数据-哔哩哔哩]: https://b23.tv/ZDsmYqT
-[源码]: https://github.com/ganlvtech/qrcode-file-transfer
+[基于二维码的无网络文件传输，通过屏幕和摄像头传输数据-哔哩哔哩](https://b23.tv/ZDsmYqT)
+
+[文献源码-github.com/ganlvtech/qrcode-file-transfer](https://github.com/ganlvtech/qrcode-file-transfer)
 
